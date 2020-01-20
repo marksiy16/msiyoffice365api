@@ -1,0 +1,20 @@
+{
+    "name": "marksiy16/microsoft-graph-api",
+    "description": "A Laravel package for Office 365",
+    "authors": [
+        {
+            "name": "Mark Siy",
+            "email": "mark.siy@itmax.email"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.5",
+        "league/oauth2-client": "dev-master",
+        "microsoft/microsoft-graph": "^1.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "MarkSiy16\\MicrosoftGraphApi\\": "src/"
+        }
+    }
+}
