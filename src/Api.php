@@ -11,9 +11,9 @@ class Api
 {
     public static function getAccessToken()
     {
-        $tenantId = config('app.office365_tenantId');
-        $clientId = config('app.office365_clientId');
-        $clientSecret = config('app.office365_clientSecret');
+        $tenantId = env('OAUTH_TENANT_ID');
+        $clientId = env('OAUTH_APP_ID');
+        $clientSecret = env('OAUTH_APP_PASSWORD');
 
         $guzzle = new Client();
 
